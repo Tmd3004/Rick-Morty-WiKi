@@ -1,0 +1,29 @@
+.form {
+    margin-left: 56px;
+}
+
+.input {
+    width: 40%;
+    border-radius: 8px;
+    border: 2px solid #0d6efd;
+    padding: 10px 15px;
+    box-shadow: 1px 3px 9px rgba($color: #000000, $alpha: 0.25);
+    &:focus {
+        outline: none;
+    }
+}
+
+// .input:focus {
+//     outline: none;
+// }
+
+.btn {
+    box-shadow: 1px 3px 9px rgba($color: #000000, $alpha: 0.25);
+}
+
+@media (max-width: 739px) {
+    .input {
+        width: 80%;
+    }
+}
+
